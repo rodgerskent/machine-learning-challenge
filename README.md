@@ -5,14 +5,13 @@ Examined data collected from the NASA Keplar telescope program. Utilized NASA ra
 * []()Narrowed the dataset to key features for predictive modelling
 * []()Split the dataset into both a training and testing set for model validation
 * []()Scaled the feature data to ensure appropriate weighting and consideration
-* []()Encoded the outcome data which effectively converts a text designation (Confirmed, False Positive, Candidate) into a numerical value for valid predictive modelling 
-* []()Built, fit and tested a multi-variate regression model.
+* []()Encoded the outcome data converitng text into a numerical value for valid predictive modelling 
+* []()Built, fit and tested a multi-variate regression model
 * []()Built, fit and tested a K nearest neighbor (KNN) model
 * []()Hyper tuned each model using the GridSearchCV methodology
 
-
 ## The Jupyter Notebooks and related saved models are here:
-The project git hub site: [https://rodgerskent.github.io/qualityDining-dashboard]
+The project git hub site: [https://github.com/rodgerskent/machine-learning-challenge/edit/main]
 
 ## Key Insights
 The following key insights were brought to life in the assessment.
@@ -22,4 +21,5 @@ The following key insights were brought to life in the assessment.
 * []()I am still seeking to run recursive feature elimination   
 
 ## Reference Items & Data source
-The NASA website with the data and refence material is located here: [https//data.colorado.gov/Health/Restaurant-Inspections-in-Tri-County-Colorado/869n-zj3f]
+The NASA website with the data and refence material is located here: [https// www.kaggle.com/nasa/kepler-exoplanet-search-results]
+

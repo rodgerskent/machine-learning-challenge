@@ -5,8 +5,8 @@ Examined data collected from the NASA Keplar telescope program. Utilized NASA ra
 * []()Narrowed the dataset to key features for predictive modelling
 * []()Split the dataset into both a training and testing set for model validation
 * []()Scaled the feature data to ensure appropriate weighting and consideration
-* []()Encoded the outcome data converitng text into a numerical value for valid predictive modelling 
-* []()Built, fit and tested a multi-variate regression model
+* []()Encoded the outcome data converting text into a numerical value for valid predictive modelling 
+* []()Built, fit and tested an SVC multi-variate linear regression model
 * []()Built, fit and tested a K nearest neighbor (KNN) model
 * []()Hyper tuned each model using the GridSearchCV methodology
 
@@ -15,10 +15,10 @@ The project git hub site: [https://github.com/rodgerskent/machine-learning-chall
 
 ## Key Insights
 The following key insights were brought to life in the assessment.
-* []()The KNN model outperformed the multi-variate regression model.
-* []()The KNN model is 83.0% accurate prior to hyper tuning and can be improved to 87.8% accuracy with the parameters set at {'C': 50, 'gamma': 0.0001}
-* []()The multi-variate linear regression model is 66.0% accurate prior to hyper tuning and can be improved to 74.0% with the parameters set at {'C': 50, 'gamma': 0.0001}
-* []()I am still seeking to run recursive feature elimination   
+* []()The SVC model with hyper tuning outperformed the KNN model.
+* []()The SVC model scores 87.8% when tuned at {'C': 50, 'gamma': 0.0001}
+* []()The KNN model scores 81.3% when tuned at {'algorithm': 'ball_tree', 'leaf_size': 15}
+* []()Recursive feature elimination was run and presents an opportunity to make the models more efficient.   
 
 ## Reference Items & Data source
 The NASA website with the data and refence material is located here: [https// www.kaggle.com/nasa/kepler-exoplanet-search-results]
